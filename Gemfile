@@ -5,7 +5,7 @@ gem 'rails', '4.0.0'
 gem 'rack', '1.5.2'
 
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sass-rails', '>= 5.0.4'
 gem 'bourbon'
 gem 'neat'
 gem 'font-awesome-sass'
@@ -21,7 +21,7 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
-gem 'flexslider'
+gem 'flexslider', '>= 2.2.0'
 
 # gem 'therubyracer', platforms: :ruby
 gem 'json', '1.8.2'
