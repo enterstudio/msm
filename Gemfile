@@ -16,7 +16,7 @@ gem 'cells', :git => 'https://github.com/apotonick/cells.git'
 gem 'cells-erb'
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '>= 2.7.2'
 
 
 # Use CoffeeScript for .js.coffee assets and views
@@ -24,7 +24,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'flexslider'
 
 # gem 'therubyracer', platforms: :ruby
-gem 'json', '1.8.2'
+gem 'json', '2.3.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -44,7 +44,7 @@ gem 'kaminari'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+  gem 'sdoc', '>= 1.0.0', require: false
 end
 
 # Use ActiveModel has_secure_password
