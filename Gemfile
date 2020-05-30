@@ -40,7 +40,7 @@ gem 'yajl-ruby', require: 'yajl'
 gem 'prismic.io', require: 'prismic'
 
 # A gem to build simple paginations
-gem 'kaminari'
+gem 'kaminari', '>= 1.2.1'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
