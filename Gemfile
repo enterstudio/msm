@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '5.2.4.6'
 gem 'rack', '1.5.2'
 
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sass-rails', '>= 5.0.5'
 gem 'bourbon'
 gem 'neat'
 gem 'font-awesome-sass'
@@ -20,17 +20,17 @@ gem 'uglifier', '>= 1.3.0'
 
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
-gem 'flexslider'
+gem 'coffee-rails', '~> 4.2.2'
+gem 'flexslider', '>= 2.2.0'
 
 # gem 'therubyracer', platforms: :ruby
 gem 'json', '1.8.2'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks', '>= 2.5.3'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -40,7 +40,7 @@ gem 'yajl-ruby', require: 'yajl'
 gem 'prismic.io', require: 'prismic'
 
 # A gem to build simple paginations
-gem 'kaminari'
+gem 'kaminari', '>= 0.16.3'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -58,8 +58,8 @@ end
 
 # Use debugger
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'rspec-cells'
+  gem 'rspec-rails', '>= 3.5.0'
+  gem 'rspec-cells', '>= 0.3.3'
   gem 'better_errors'
   gem 'binding_of_caller'
 end
