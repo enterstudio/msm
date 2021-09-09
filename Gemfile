@@ -60,7 +60,7 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'rspec-cells'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'binding_of_caller'
 end
 # gem 'debugger', group: [:development, :test]
