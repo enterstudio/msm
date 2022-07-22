@@ -20,7 +20,7 @@ gem 'uglifier', '>= 1.3.0'
 
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.0.1'
 gem 'flexslider'
 
 # gem 'therubyracer', platforms: :ruby
@@ -33,7 +33,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder', '~> 1.5', '>= 1.5.3'
 
 gem 'yajl-ruby', require: 'yajl'
 
