@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
-gem 'rack', '1.5.2'
+gem 'rack', '3.0.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
@@ -20,7 +20,7 @@ gem 'uglifier', '>= 1.3.0'
 
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.0.1'
 gem 'flexslider'
 
 # gem 'therubyracer', platforms: :ruby
