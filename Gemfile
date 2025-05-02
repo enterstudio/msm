@@ -58,7 +58,7 @@ end
 
 # Use debugger
 group :development, :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'rspec-cells'
   gem 'better_errors'
   gem 'binding_of_caller'
